@@ -1,0 +1,31 @@
+{
+  "version": "v0.2",
+  "ignore_class": "ignore_region",
+  "classes": [
+    {"name": "person", "definition": "Người không dùng phương tiện để di chuyển: đi bộ, đứng, ngồi trên ghế / đất, dắt xe đạp hoặc xe máy bằng tay."},
+    {"name": "rider", "definition": "Người đang ngồi trên xe máy, xe đạp, xích lô, xe ba bánh hở hoặc xe không mui (lái hoặc ngồi sau), kể cả khi xe đang dừng."},
+    {"name": "car", "definition": "Ô tô chở người cỡ nhỏ, thân liền khối: sedan, hatchback, wagon, SUV, MPV, taxi, xe cổ, xe diễu hành có biển số."},
+    {"name": "van", "definition": "Xe dạng hộp, thân cao, khoang kín liền cabin, ≤ 16 chỗ (Hiace, Transit, Starex, xe cứu thương dạng van)."},
+    {"name": "truck", "definition": "Xe chở hàng có thùng tách khỏi cabin: pickup (kể cả có nắp thùng), xe tải nhỏ, xe tải thùng, đầu kéo kèm rơ-moóc, xe chở ô tô, songthaew."},
+    {"name": "bus", "definition": "Xe chở khách công cộng / đường dài có thân buýt (cửa khách, nhiều hàng ghế), gồm minibus thân buýt."},
+    {"name": "motorcycle", "definition": "Xe hai bánh có động cơ (xe số, tay ga, mô tô, xe máy điện), tính cả sidecar hoặc thùng gắn bên; chỉ box phần xe."},
+    {"name": "bicycle", "definition": "Xe đạp hai bánh không động cơ (kể cả xe đạp chở hàng); chỉ box phần xe."},
+    {"name": "three_wheeler", "definition": "Xe ba bánh có động cơ chở khách / hàng: tuk-tuk, xe lam, auto-rickshaw; box gồm cả mái và hàng trên xe."},
+    {"name": "ignore_region", "definition": "Vùng không chấm điểm, chỉ dùng cho: (A) phương tiện lạ không thuộc lớp nào (xích lô, xe đẩy hàng), (B) vật cao < 20 px, (C) cụm vật không tách được (đám đông, bãi xe), (D) quá tối hoặc mờ đến mức không nhận ra lớp."}
+  ],
+  "attributes": [
+    {"name": "occluded_level", "type": "select", "values": ["0", "1", "2", "3"], "default": "0"},
+    {"name": "truncated", "type": "select", "values": ["no", "yes"], "default": "no"},
+    {"name": "can_review", "type": "checkbox", "values": [], "default": "false"}
+  ],
+  "rules": {
+    "min_box_height_px": 20,
+    "iou_thr_large": 0.85,
+    "iou_thr_small": 0.7,
+    "large_px": 50,
+    "iaa_iou": 0.85,
+    "iaa_class": 0.95,
+    "error_rate_img_max": 0.02,
+    "match_iou": 0.5
+  }
+}
