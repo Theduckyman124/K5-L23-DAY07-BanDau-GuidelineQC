@@ -1,7 +1,7 @@
 # Thông tin nhóm
 
 - Tên nhóm: BanDau
-- Mã thành viên (ba chữ số): 100 101 102 103 104
+- Mã thành viên (ba chữ số): 100, 101, 102, 103
 - Người điều phối: Nguyễn Thái Đức
 - Người review bản cuối: Phạm Đức Việt
 - Commit chốt bài (điền ở kênh nộp sau khi commit):
