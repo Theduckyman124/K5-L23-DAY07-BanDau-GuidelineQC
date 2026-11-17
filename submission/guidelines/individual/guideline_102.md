@@ -2,7 +2,7 @@
 
 - Phiên bản: v0.2
 - Ngày: 2026-11-16
-- Người viết / duyệt: <mã> / duyệt ở Pha 2
+- Người viết / duyệt: <2A202603261> TRẦN TRỌNG HOÀNG VŨ / duyệt ở Pha 2
 
 ## 1. Mục tiêu
 
