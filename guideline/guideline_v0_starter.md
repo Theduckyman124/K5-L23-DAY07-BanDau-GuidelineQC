@@ -26,7 +26,15 @@ Nhãn dùng để huấn luyện mô hình phát hiện **người và phương 
 | `van` | Xe thùng kín cỡ nhỏ. |
 | `motorcycle` | Xe máy, mô tô. |
 | `person` | Người. |
-| `ignore_region` | Vùng không cần gán từng vật. |
+| `tuk-tuk` | Xe ô tô bánh chở người |
+|`bycicle`| Xe đạp|
+|`bus`| xe buýt| 
+|`cyclo`|xe xích lô|
+|`rider`| người điều khiển tiện|
+|`pickup_truck`|Xe bán tải|
+|`three-wheeled_motorcycle`|Xe máy 3 bánh|
+| `ignore_region` | Vùng không cần gán từng vật.|
+
 
 ### Thuộc tính
 
